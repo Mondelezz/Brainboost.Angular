@@ -1,0 +1,88 @@
+.background-photo{
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size:cover
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.164); // Белый фон с прозрачностью
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 450px; // Ширина формы
+    height: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    left: 22px;
+    height: 100vh; // Высота окна браузера
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center; // Центрировать заголовок
+    margin-bottom: 20px;
+    color: #0a143d; // Цвет заголовка
+}
+
+.input-group {
+    margin-bottom: 15px; // Отступ между полями
+}
+
+.button-link, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a143d;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-link:hover, button:hover {
+    background-color: #006983;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.712); // Поля с прозрачностью
+    transition: background-color 0.3s; // Плавный переход для фона
+
+    &:focus {
+        background-color: rgba(255, 255, 255, 1); // Убираем прозрачность при фокусе
+        border-color: #0a143d; // Изменяем цвет рамки при фокусе
+        outline: none; // Убираем обводку по умолчанию
+    }
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0a143d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #006983; // Светлее цвет при наведении
+    }
+}
+
+
+

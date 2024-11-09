@@ -1,0 +1,41 @@
+.title-brand{
+    font-size: 25px;
+    color: #00707E;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo-brand{
+    width: 32px; /* ширина иконки */
+    height: 32px; /* высота иконки */
+    vertical-align: middle; /* Выравнивание по центру текста */
+    margin-right: 8px; /* Отступ между иконкой и текстом */
+}
+
+.my-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #080808;
+    padding: 10px 20px; 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Тень для эффекта поднятости */
+}
+
+.auth-links {
+    display: flex;
+}
+
+.auth-links a {
+    font-weight: bold;
+    margin-left: 15px; /* Отступы между ссылками */
+    color: #00707E; /* Цвет ссылок */
+    transition: color 0.3s; /* Плавный переход цвета */
+    text-decoration: none; /* Убираем подчеркивание */
+    border-radius: 4px; /* Закругленные углы */
+    padding: 8px 12px; /* Отступы внутри кнопок */
+    background-color: transparent; /* Фон по умолчанию */
+}
+
+.auth-links a:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Легкий фон при наведении */
+}
